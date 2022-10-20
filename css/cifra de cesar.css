@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp3147490.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+    font-family: Roboto Mono;
+    font-size: 25px;
+}
+main{
+    border: 5px solid rgb(249, 169, 116);
+    border-radius: 90px;
+    margin: 150px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 1200px;
+    background-image: url(https://img.freepik.com/free-photo/rendering-abstract-futuristic-background-with-glowing-neon-blue-orange-lights_181624-19807.jpg?w=2000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+header{
+    text-align: center;
+    font-family: Oswald;
+    color: bisque;
+    text-shadow: 0.1em 0.1em rgb(53, 49, 41);
+
+}
+.titulo{
+    font-size: 65px;
+    text-shadow: 0.1em 0.1em rgb(172, 164, 142);
+    border: 5px solid black;
+    border-radius: 90px;
+    width: 700px;
+    height: 115px;
+    text-align: center;
+    margin-left: 360px;
+    background-color: rgb(246, 246, 236);
+}
+::placeholder{
+    font-style: italic;
+    font-size: 15px;
+}
+h1{
+    font-size:45px;
+    color:black
+}
+.uma{
+    margin-bottom: 40px;
+    border: 2px solid rgb(249, 220, 176);
+    font-size: 5px;
+}
+#messagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    
+}
+textarea{
+    border-radius: 10px;
+    border: 2px solid rgb(249, 220, 176);
+}
+.botoes{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+    font-family: Oswald;
+}
+#btcodificar{
+    font-family: Oswald;
+    font-size: 20px;
+}
+#Lcesar{
+    color:blanchedalmond;
+}
+button{
+    border-radius: 30px;
+    border: 2px solid rgb(51, 72, 122);
+    height: 50px;
+    width: 120px;
+    background-color: blanchedalmond;
+    color: black;
+}

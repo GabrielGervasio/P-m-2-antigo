@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de César</title>
+    <link rel="stylesheet" type="text/css" href="./css/cifra de cesar.css">
+    <link rel="shortcut icon" href="incon.png" type="image/x-icon">
+</head>
+</head>
+
+<body>
+    
+    <header class="cabeçalho">
+        <h1 class="titulo">Codifador de Messagens</h1>
+        <strong><p>Este é um codificador feito em JavaScript, ele usa duas linguagens de codificação: Cifra de Cesar e Base64.
+        </p></strong>
+        <h3>Escolha um tipo de criptografia</h3>
+    </header>
+    <main>
+    <br>
+    <div class="uma">
+        <input type="number" id="parametroCesar" placeholder="Insira um parâmetro">
+    </div>
+    <div class="buttons">
+        <strong><input type="radio" name="escolher" id="cesar" onclick="cc()">
+        <label for="cesarcifra" id="Lcesar"> Cifra de César</label>
+        <input type="radio" name="escolher" id="L64" onclick="base()"></label>
+        <label for="cesarcifra" id="Lcesar">Base64</label></strong>
+    </div>
+    <br>
+    <div id="messagem">
+        <textarea type="text" id="input" cols="30" rows="10" placeholder="Insira seu texto aqui."></textarea>
+
+        <textarea type="text" id="descript" cols="30" rows="10" placeholder="        Codificação"></textarea>
+    </div>
+    <div class="botoes"><strong>
+        <button id="btcodificar" type="submit" onclick="codificar()" value="envio">Codificar</button></strong>
+        <strong> <button id="btcodificar" type="submit" onclick="descodificar()" value="envio">Descodificar</button></strong>
+    </div>
+</main>
+    <script src="./JavaScript/CifraDeCesar.js"></script>
+</body>
+
+</html>
